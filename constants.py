@@ -311,8 +311,8 @@ PRIVILEGES_LIST = [
     "Export alarm log",
 ]
 INITIAL_USERS = {
-    "admin": {"role": "Administrator", "password": "Pa55word", "domain": "RedBee"},
-    "user": {"role": "Operator", "password": "Pa55word", "domain": "RedBee"},
+    "admin": {"role": "Administrator", "password": "admin", "domain": "RedBee"},
+    "user": {"role": "Operator", "password": "user", "domain": "RedBee"},
 }
 INITIAL_ROLES = {
     "Administrator": {
